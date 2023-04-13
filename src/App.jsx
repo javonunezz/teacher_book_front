@@ -1,24 +1,25 @@
-import './index.css';
-import './App.css';
-import { Sidebar } from './components/Sidebar';
-import { Routes, Route } from 'react-router-dom';
-import { HomePage } from './components/HomePage';
-import { StudentsPage } from './components/StudentsPage';
-import { CoursesPage } from './components/CoursesPage';
-
+import "./index.css";
+import { Sidebar } from "./components/Sidebar/Sidebar";
+import { useState } from "react";
+import { Login } from "./components/Pages/Login/Login";
+import { PrivateRoutes } from "./components/PrivateRoutes";
+import { PublicRoutes } from "./components/PublicRoutes";
 
 function App() {
-  return (
-    <div className="h-screen w-screen bg-gray-300 flex flex-col md:flex-row ">
-      <Sidebar />
-      <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="/students" element={<StudentsPage />} />
-        <Route path="/courses" element={<CoursesPage />} />
-        <Route path="*" element={<img src="https://http.cat/404" alt="Not Found"/> } />
-      </Routes>
-    </div>
-  );
-};
+  const [logged, setLogged] = useState(false);
 
-export default App
+  return (
+    <>
+      {logged ? (
+        <div className="flex h-screen w-screen flex-col bg-gray-light md:flex-row">
+          <Sidebar />
+          <PrivateRoutes />
+        </div>
+      ) : (
+        <PublicRoutes loggedValidate={setLogged} />
+      )}
+    </>
+  );
+}
+
+export default App;
