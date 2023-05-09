@@ -1,23 +1,15 @@
 import "./index.css";
-import { Sidebar } from "./components/Sidebar/Sidebar";
+import { Sidebar } from "./components/Organisms/Sidebar";
 import { useState } from "react";
-import { Login } from "./components/Pages/Login/Login";
-import { PrivateRoutes } from "./components/PrivateRoutes";
-import { PublicRoutes } from "./components/PublicRoutes";
-
 function App() {
-  const [logged, setLogged] = useState(false);
-
   return (
     <>
-      {logged ? (
-        <div className="flex h-screen w-screen flex-col bg-gray-light md:flex-row">
+      <div className="bg-gray-light relative h-screen w-screen md:flex-row">
+        <div className="w-full md:w-2/3"></div>
+        <div className="absolute bottom-0 w-full">
           <Sidebar />
-          <PrivateRoutes />
         </div>
-      ) : (
-        <PublicRoutes loggedValidate={setLogged} />
-      )}
+      </div>
     </>
   );
 }
