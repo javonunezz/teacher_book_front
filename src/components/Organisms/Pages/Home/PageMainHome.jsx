@@ -1,8 +1,8 @@
 import { CardTeacher } from "./CardTeacher";
 
-export const PageHome = () => {
+export const PageMainHome = () => {
   return (
-    <div className="space-y-4">
+    <div className="flex h-full w-full items-center justify-center">
       <CardTeacher />
       <CardTeacher />
     </div>
