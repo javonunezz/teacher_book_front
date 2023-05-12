@@ -22,7 +22,7 @@ export const Sidebar = ({ log }) => {
             text={data[1]}
             color="bg-primary-500"
             position={"justify-around"}
-            iconColor={"white"}
+            iconColor={"text-white"}
             iconSize={"1.25em"}
             sizeSM_w={"w-10"}
             sizeSM_h={"h-10"}
