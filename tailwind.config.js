@@ -28,12 +28,9 @@ module.exports = {
         "neutral-600": "#6F6F6F",
         "neutral-800": "#3C3C3C",
       },
-    },
-
-    minWidth: {
-      24: "200px",
-      25: "830px",
-      26: "300px",
+      dropShadow: {
+        "3xl": "3px 11px 8px rgba(0,0,0,0.75)",
+      },
     },
   },
   plugins: [],
