@@ -1,4 +1,4 @@
-import { Icon } from "/src/components/Molecules/Icon";
+import { Icon } from "/src/components/molecules/Icon";
 
 export const Input = ({
   type = "text",

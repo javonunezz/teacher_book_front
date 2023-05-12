@@ -1,7 +1,7 @@
 import "./index.css";
-import { Sidebar } from "./components/Organisms/Sidebar";
+import { Sidebar } from "./components/organisms/Sidebar";
 import { useState } from "react";
-import { Login } from "./components/Organisms/Login";
+import { Login } from "./components/organisms/Login";
 
 function App() {
   return (
