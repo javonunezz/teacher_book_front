@@ -1,5 +1,5 @@
 import { FiAtSign, FiLock } from "react-icons/fi";
-import { Input } from "/src/components/Molecules/Input.jsx";
+import { Input } from "/src/components/molecules/Input.jsx";
 
 export const Login = () => {
   return (

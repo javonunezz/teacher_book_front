@@ -1,4 +1,4 @@
-import { Button } from "../Molecules/Button";
+import { Button } from "../molecules/Button";
 import { FaBriefcase } from "react-icons/fa";
 import { IoIosSchool } from "react-icons/io";
 import { IoMdSettings } from "react-icons/io";
