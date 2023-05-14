@@ -2,14 +2,15 @@ import "./index.css";
 import { Sidebar } from "./components/organisms/Sidebar";
 import { useState } from "react";
 import { Login } from "./components/organisms/Login";
-import { PageMainHome } from "./components/organisms/pages/home/PageMainHome";
+import { Home } from "./components/organisms/pages/page_home/Home.jsx";
+import { MainContent } from "./components/organisms/MainContent";
 
 function App() {
   return (
     <>
-      <div className="bg-gray-light relative flex h-screen w-screen md:flex-row">
+      <div className="bg-gray-light relative flex h-screen w-screen flex-col lg:flex-row">
         <Sidebar />
-        <PageMainHome />
+        <MainContent page={<Home />} />
       </div>
     </>
     // TODO revisar como implementar sidebar y login en conjunto (el login no lleva sidebar)
