@@ -29,12 +29,6 @@ module.exports = {
         "neutral-800": "#3C3C3C",
       },
     },
-
-    minWidth: {
-      24: "200px",
-      25: "830px",
-      26: "300px",
-    },
   },
   plugins: [],
 };

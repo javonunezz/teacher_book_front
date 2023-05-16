@@ -14,10 +14,11 @@ export const Sidebar = ({ log }) => {
     [<CiLogout />, "Log out"],
   ];
   return (
-    <div className="min-h-16 flex flex-row items-center justify-center gap-x-7 bg-primary-500 py-3 md:h-screen md:w-64 md:flex-col md:items-center md:justify-center md:gap-x-0 md:space-y-5 md:px-8">
+    <div className="order-2 flex h-16 w-full flex-row items-center justify-center gap-x-7 bg-primary-500 py-3 lg:relative lg:left-0 lg:h-full lg:w-64 lg:flex-col lg:items-center lg:justify-center lg:gap-x-0 lg:space-y-5 lg:px-8">
       {icons.map((data) => {
         return (
           <Button
+            key={data[1]}
             icon={data[0]}
             text={data[1]}
             color="bg-primary-500"
