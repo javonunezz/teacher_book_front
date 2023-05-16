@@ -5,8 +5,8 @@ export const DailySchedule = () => {
   ];
 
   return (
-    <div className="w-[317px] rounded-3xl bg-neutral-100 p-9 shadow-xl">
-      <h1>Daily Schedule</h1>
+    <div className="w-[350px] rounded-3xl bg-neutral-100 p-9 shadow-xl">
+      <h1 className="mb-4 text-xl font-bold">Daily Schedule</h1>
       <div className="flex items-center justify-between text-neutral-400">
         <p>
           {new Date().getDate()} of{" "}
@@ -15,7 +15,7 @@ export const DailySchedule = () => {
         <p>...</p>
       </div>
 
-      <div className="mt-2 flex flex-col gap-4">
+      <div className="mt-2 flex flex-col gap-4 rounded-lg bg-white p-6">
         {dailyClasses.length > 0 &&
           dailyClasses.map((element) => (
             <div className="grid grid-cols-2 gap-4 divide-x-2 divide-black">
