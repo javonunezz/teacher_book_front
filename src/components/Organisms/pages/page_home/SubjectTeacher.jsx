@@ -43,7 +43,7 @@ const subjects = [
 
 export const SubjectTeacher = () => {
   return (
-    <div className="flex w-full min-w-[315px] max-w-[417px] flex-col gap-y-4">
+    <div className="flex w-full flex-wrap items-center justify-center gap-4 lg:w-2/3">
       {subjects.length > 0 &&
         subjects.map((subject) => {
           const obj_subject = colors_subjects.find(
@@ -54,7 +54,7 @@ export const SubjectTeacher = () => {
           const icon = obj_subject.icon;
           return (
             <div
-              className={`flex h-28 w-full flex-row items-center justify-around rounded-2xl text-white shadow-[3px_3px_10px_-2px_#000000]`}
+              className={`sw-[417px] flex h-[103px] min-w-[315px] flex-row items-center justify-around rounded-2xl text-white shadow-[3px_3px_10px_-2px_#000000]`}
               style={{
                 backgroundColor: color_bg,
               }}
