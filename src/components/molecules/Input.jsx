@@ -9,7 +9,7 @@ export const Input = ({
 }) => {
   return (
     <div className={`relative h-10 w-auto ${className}`}>
-      <label className="absolute -top-[10px] left-4 bg-white px-1 ">
+      <label className="absolute -top-[10px] left-4 bg-white px-1 text-xs">
         {label}
       </label>
       <input
