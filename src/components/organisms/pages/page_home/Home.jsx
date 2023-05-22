@@ -1,6 +1,8 @@
-import { CardTeacher } from "./CardTeacher";
-import { DailySchedule } from "./DailySchedule";
-import { SubjectTeacher } from "./SubjectTeacher";
+import {
+  CardTeacher,
+  DailySchedule,
+  SubjectTeacher,
+} from "/src/components/organisms/pages/index.js";
 
 export const Home = () => {
   return (

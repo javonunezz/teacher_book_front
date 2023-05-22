@@ -17,8 +17,11 @@ export const DailySchedule = () => {
 
       <div className="mt-2 flex max-h-[290px] flex-col gap-4 overflow-y-auto rounded-lg bg-white p-6">
         {dailyClasses.length > 0 &&
-          dailyClasses.map((element) => (
-            <div className="grid grid-cols-2 gap-4 divide-x-2 divide-black">
+          dailyClasses.map((element, index) => (
+            <div
+              className="grid grid-cols-2 gap-4 divide-x-2 divide-black"
+              key={index}
+            >
               <p className="flex items-center">{element.hour}</p>
               <div className="flex  flex-col items-start pl-3">
                 <p className="text-neutral-400">semester {element.semester}</p>

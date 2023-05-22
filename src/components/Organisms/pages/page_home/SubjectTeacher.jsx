@@ -1,8 +1,11 @@
-import { TbMathSymbols, TbMessageLanguage } from "react-icons/tb";
-import { SlChemistry } from "react-icons/sl";
-import { Icon } from "../../../molecules/Icon";
+import {
+  TbMathSymbols,
+  TbMessageLanguage,
+  SlChemistry,
+  Icon,
+} from "/src/components/organisms/pages/index.js";
 
-const colors_subjects = [
+const COLORS_SUBJECTS = [
   {
     type_subject: "Mathematics",
     background: "#567eb3",
@@ -23,7 +26,7 @@ const colors_subjects = [
   },
 ];
 
-const subjects = [
+const SUBJECTS = [
   {
     subject_name: "Mathematics",
     classes_number: 4,
@@ -44,20 +47,21 @@ const subjects = [
 export const SubjectTeacher = () => {
   return (
     <div className="flex w-full flex-wrap items-center justify-center gap-4 px-4 lg:w-2/3">
-      {subjects.length > 0 &&
-        subjects.map((subject) => {
-          const obj_subject = colors_subjects.find(
+      {SUBJECTS.length > 0 &&
+        SUBJECTS.map((subject, index) => {
+          const objSubject = COLORS_SUBJECTS.find(
             (color_obj) => color_obj.type_subject === subject.subject_name
           );
-          const color_bg = obj_subject.background;
-          const color_icon = obj_subject.background_icon;
-          const icon = obj_subject.icon;
+          const colorBg = objSubject.background;
+          const colorIcon = objSubject.background_icon;
+          const icon = objSubject.icon;
           return (
             <div
-              className={`flex h-[103px] w-[417px] min-w-[315px] flex-row items-center justify-around rounded-2xl text-white shadow-[3px_3px_10px_-2px_#000000]`}
+              className={`flex h-[103px] w-[413px] min-w-[315px] flex-row items-center justify-around rounded-2xl text-white shadow-[3px_3px_10px_-2px_#000000]`}
               style={{
-                backgroundColor: color_bg,
+                backgroundColor: colorBg,
               }}
+              key={index}
             >
               <div className="flex flex-col gap-y-4">
                 <h1 className="text-xl font-semibold">
@@ -71,7 +75,7 @@ export const SubjectTeacher = () => {
               <div
                 className={`flex h-20 w-20 items-center justify-center rounded-2xl`}
                 style={{
-                  backgroundColor: color_icon,
+                  backgroundColor: colorIcon,
                 }}
               >
                 <Icon iconComponent={icon} color="text-white" size="33px" />
