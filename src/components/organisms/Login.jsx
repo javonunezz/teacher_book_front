@@ -1,5 +1,6 @@
 import { FiAtSign, FiLock } from "react-icons/fi";
 import { Input } from "/src/components/molecules/Input.jsx";
+import { Link } from "react-router-dom";
 
 export const Login = () => {
   return (
@@ -61,12 +62,12 @@ export const Login = () => {
               iconComponent={<FiLock />}
             />
 
-            <button
-              type="submit"
+            <Link
               className="rounded-md bg-primary-500 py-2 text-lg text-white"
+              to="/home"
             >
-              Login
-            </button>
+              <button type="submit">Login</button>
+            </Link>
           </form>
         </div>
       </div>

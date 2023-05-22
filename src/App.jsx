@@ -1,22 +1,31 @@
 import "./index.css";
-import { Sidebar } from "./components/organisms/Sidebar";
-import { useState } from "react";
+import { Routes, Route, useLocation } from "react-router-dom";
 import { Login } from "./components/organisms/Login";
-import { Home } from "./components/organisms/pages/page_home/Home.jsx";
+import { Sidebar } from "./components/organisms/Sidebar";
 import { MainContent } from "./components/organisms/MainContent";
+import { Home } from "./components/organisms/pages/page_home/Home.jsx";
+import { Settings } from "./components/organisms/pages/page_settings/Settings";
 
 function App() {
+  const location = useLocation();
+  const showSidebar = location.pathname !== "/login";
+
   return (
     <>
       <div className="bg-gray-light relative flex h-screen w-screen flex-col lg:flex-row">
-        <Sidebar />
-        <MainContent page={<Home />} />
+        {showSidebar && <Sidebar />}
+
+        <Routes>
+          <Route path="*" element={<MainContent page={<Home />} />} />
+          <Route path="/home" element={<MainContent page={<Home />} />} />
+          <Route
+            path="/settings"
+            element={<MainContent page={<Settings showCardShadow={true} />} />}
+          />
+          <Route path="/login" element={<MainContent page={<Login />} />} />
+        </Routes>
       </div>
     </>
-    // TODO revisar como implementar sidebar y login en conjunto (el login no lleva sidebar)
-    // <div className="flex w-screen flex-col items-center font-source-sans">
-    //   <Login />
-    // </div>
   );
 }
 
