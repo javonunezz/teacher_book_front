@@ -1,6 +1,6 @@
-import image from "./../../../../assets/teacher.jpg";
+import { image } from "/src/components/organisms/pages/index.js";
 
-const infoTeacher = {
+const INFO_TEACHER = {
   name_teacher: "Name Teacher",
   subject_teacher: "Subject Teacher",
   born_date: "11/11/1111",
@@ -18,14 +18,14 @@ export const CardTeacher = () => {
         alt="teacher_image"
       />
       <h1 className="mb-1 mt-3 text-center text-2xl font-bold">
-        {infoTeacher.name_teacher}
+        {INFO_TEACHER.name_teacher}
       </h1>
-      <h2 className="text-lg">{infoTeacher.subject_teacher}</h2>
+      <h2 className="text-lg">{INFO_TEACHER.subject_teacher}</h2>
       <ul className="mb-2 mr-auto mt-6 space-y-1 text-lg text-neutral-400">
-        <li>{`ID: ${infoTeacher.id}`}</li>
-        <li>{`Genre: ${infoTeacher.genre}`}</li>
-        <li>{`Born date: ${infoTeacher.born_date}`}</li>
-        <li>{`Email: ${infoTeacher.email}`}</li>
+        <li>{`ID: ${INFO_TEACHER.id}`}</li>
+        <li>{`Genre: ${INFO_TEACHER.genre}`}</li>
+        <li>{`Born date: ${INFO_TEACHER.born_date}`}</li>
+        <li>{`Email: ${INFO_TEACHER.email}`}</li>
       </ul>
     </div>
   );
