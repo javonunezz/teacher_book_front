@@ -2,7 +2,7 @@ import {
   CardTeacher,
   DailySchedule,
   SubjectTeacher,
-} from "/src/components/organisms/pages/index.js";
+} from "/src/components/organisms/pages/indexPages";
 
 export const Home = () => {
   return (

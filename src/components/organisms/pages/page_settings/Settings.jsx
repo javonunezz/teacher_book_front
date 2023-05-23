@@ -1,7 +1,8 @@
-import { Input } from "/src/components/molecules/Input.jsx";
-import { Button } from "/src/components/molecules/Button";
-import { FiEdit } from "react-icons/fi";
-import { Icon } from "/src/components/molecules/Icon";
+import {
+  Input,
+  FiEdit,
+  Icon,
+} from "/src/components/organisms/pages/indexPages";
 
 export const Settings = ({ showCardShadow }) => {
   const shadowClasses = showCardShadow

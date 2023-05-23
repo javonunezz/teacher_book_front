@@ -1,4 +1,4 @@
-import { Icon } from "/src/components/molecules/Icon.jsx";
+import { Icon } from "/src/components/molecules/Icon";
 
 export const Button = ({
   icon,

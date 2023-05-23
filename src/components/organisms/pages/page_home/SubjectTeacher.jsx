@@ -3,7 +3,7 @@ import {
   TbMessageLanguage,
   SlChemistry,
   Icon,
-} from "/src/components/organisms/pages/index.js";
+} from "/src/components/organisms/pages/indexPages";
 
 const COLORS_SUBJECTS = [
   {
