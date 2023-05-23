@@ -8,6 +8,7 @@ import {
   MainContent,
   Home,
   Settings,
+  School,
 } from "/src/indexMain";
 
 function App() {
@@ -22,6 +23,10 @@ function App() {
         <Routes>
           <Route path="*" element={<MainContent page={<Home />} />} />
           <Route path="/home" element={<MainContent page={<Home />} />} />
+          <Route
+            path="/school"
+            element={<MainContent page={<School showCardShadow={true} />} />}
+          />
           <Route
             path="/settings"
             element={<MainContent page={<Settings showCardShadow={true} />} />}
