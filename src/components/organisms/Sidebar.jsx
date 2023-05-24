@@ -12,7 +12,7 @@ export const Sidebar = ({ log }) => {
   const icons = [
     [<AiFillHome />, "Home", "/home"],
     [<FaBriefcase />, "Courses"],
-    [<IoIosSchool />, "School"],
+    [<IoIosSchool />, "School", "/school"],
     [<IoMdSettings />, "Settings", "/settings"],
     [<CiLogout />, "Log out", "/login"],
   ];
