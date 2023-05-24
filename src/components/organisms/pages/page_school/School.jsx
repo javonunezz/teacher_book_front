@@ -1,4 +1,4 @@
-import { Icon, image } from "/src/components/organisms/pages/index.js";
+import { Icon, image } from "/src/components/organisms/pages/indexPages";
 import { FiLock } from "react-icons/fi";
 
 const TEACHERS = [
@@ -59,7 +59,7 @@ export const School = ({ showCardShadow }) => {
     >
       <h1 className="mb-6 text-3xl font-bold">Teachers</h1>
 
-      <div className="flex flex-wrap justify-center gap-6 overflow-y-scroll lg:w-[800px] lg:scrollbar-thin lg:scrollbar-track-neutral-100 lg:scrollbar-thumb-neutral-200">
+      <div className="flex flex-wrap justify-center gap-6 overflow-y-scroll py-4 lg:w-[800px] lg:scrollbar-thin lg:scrollbar-track-neutral-100 lg:scrollbar-thumb-neutral-200">
         {TEACHERS.map((teacher, index) => {
           return (
             <div
