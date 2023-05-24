@@ -1,4 +1,4 @@
-import { image } from "/src/components/organisms/pages/index.js";
+import { image } from "/src/components/organisms/pages/indexPages";
 
 const INFO_TEACHER = {
   name_teacher: "Name Teacher",

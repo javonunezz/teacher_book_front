@@ -1,10 +1,12 @@
-import { Button } from "../molecules/Button";
-import { FaBriefcase } from "react-icons/fa";
-import { IoIosSchool } from "react-icons/io";
-import { IoMdSettings } from "react-icons/io";
-import { CiLogout } from "react-icons/ci";
-import { AiFillHome } from "react-icons/ai";
-import { Link } from "react-router-dom";
+import {
+  Button,
+  FaBriefcase,
+  IoIosSchool,
+  IoMdSettings,
+  CiLogout,
+  AiFillHome,
+  Link,
+} from "/src/components/organisms/indexOrganisms";
 
 export const Sidebar = ({ log }) => {
   const icons = [

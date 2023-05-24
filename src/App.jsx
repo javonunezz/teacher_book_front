@@ -1,10 +1,14 @@
 import "./index.css";
-import { Routes, Route, useLocation } from "react-router-dom";
-import { Login } from "./components/organisms/Login";
-import { Sidebar } from "./components/organisms/Sidebar";
-import { MainContent } from "./components/organisms/MainContent";
-import { Home } from "./components/organisms/pages/page_home/Home.jsx";
-import { Settings } from "./components/organisms/pages/page_settings/Settings";
+import {
+  Routes,
+  Route,
+  useLocation,
+  Login,
+  Sidebar,
+  MainContent,
+  Home,
+  Settings,
+} from "/src/indexMain";
 
 function App() {
   const location = useLocation();

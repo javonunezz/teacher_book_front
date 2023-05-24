@@ -1,6 +1,9 @@
-import { FiAtSign, FiLock } from "react-icons/fi";
-import { Input } from "/src/components/molecules/Input.jsx";
-import { Link } from "react-router-dom";
+import {
+  FiAtSign,
+  FiLock,
+  Input,
+  Link,
+} from "/src/components/organisms/indexOrganisms";
 
 export const Login = () => {
   return (
