@@ -1,4 +1,4 @@
-import { Icon, image } from "/src/components/organisms/pages/index.js";
+import { Icon, image } from "/src/components/organisms/pages/indexPages";
 import { FiLock } from "react-icons/fi";
 
 const TEACHERS = [
