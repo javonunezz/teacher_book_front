@@ -11,7 +11,7 @@ import {
 export const Sidebar = ({ log }) => {
   const icons = [
     [<AiFillHome />, "Home", "/home"],
-    [<FaBriefcase />, "Courses"],
+    [<FaBriefcase />, "Courses", "/courses"],
     [<IoIosSchool />, "School", "/school"],
     [<IoMdSettings />, "Settings", "/settings"],
     [<CiLogout />, "Log out", "/login"],
