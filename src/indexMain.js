@@ -5,6 +5,8 @@ import { MainContent } from "/src/components/organisms/MainContent";
 import { Home } from "/src/components/organisms/pages/page_home/Home";
 import { Settings } from "/src/components/organisms/pages/page_settings/Settings";
 import { School } from "./components/organisms/pages/page_school/School";
+import { Courses } from "/src/components/organisms/pages/page_courses/Courses";
+import { CourseSubject } from "./components/organisms/pages/page_courses/CourseSubject";
 
 export {
   Routes,
@@ -16,4 +18,6 @@ export {
   Home,
   Settings,
   School,
+  Courses,
+  CourseSubject,
 };
