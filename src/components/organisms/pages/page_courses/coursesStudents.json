@@ -4,27 +4,27 @@
     "students": [
       {
         "name": "Juan Perez",
-        "students": "Boy"
+        "gender": "Boy"
       },
       {
         "name": "Juan Perez",
-        "students": "Boy"
+        "gender": "Boy"
       },
       {
         "name": "Juan Perez",
-        "students": "Boy"
+        "gender": "Boy"
       },
       {
         "name": "Pamela Chu",
-        "students": "Girl"
+        "gender": "Girl"
       },
       {
         "name": "Pamela Chu",
-        "students": "Girl"
+        "gender": "Girl"
       },
       {
         "name": "Pamela Chu",
-        "students": "Girl"
+        "gender": "Girl"
       }
     ]
   },
@@ -33,27 +33,27 @@
     "students": [
       {
         "name": "Juan Perez",
-        "students": "Boy"
+        "gender": "Boy"
       },
       {
         "name": "Juan Perez",
-        "students": "Boy"
+        "gender": "Boy"
       },
       {
         "name": "Juan Perez",
-        "students": "Boy"
+        "gender": "Boy"
       },
       {
         "name": "Pamela Chu",
-        "students": "Girl"
+        "gender": "Girl"
       },
       {
         "name": "Pamela Chu",
-        "students": "Girl"
+        "gender": "Girl"
       },
       {
         "name": "Pamela Chu",
-        "students": "Girl"
+        "gender": "Girl"
       }
     ]
   },
@@ -62,27 +62,27 @@
     "students": [
       {
         "name": "Juan Perez",
-        "students": "Boy"
+        "gender": "Boy"
       },
       {
         "name": "Juan Perez",
-        "students": "Boy"
+        "gender": "Boy"
       },
       {
         "name": "Juan Perez",
-        "students": "Boy"
+        "gender": "Boy"
       },
       {
         "name": "Pamela Chu",
-        "students": "Girl"
+        "gender": "Girl"
       },
       {
         "name": "Pamela Chu",
-        "students": "Girl"
+        "gender": "Girl"
       },
       {
         "name": "Pamela Chu",
-        "students": "Girl"
+        "gender": "Girl"
       }
     ]
   },
@@ -91,27 +91,27 @@
     "students": [
       {
         "name": "Juan Perez",
-        "students": "Boy"
+        "gender": "Boy"
       },
       {
         "name": "Juan Perez",
-        "students": "Boy"
+        "gender": "Boy"
       },
       {
         "name": "Juan Perez",
-        "students": "Boy"
+        "gender": "Boy"
       },
       {
         "name": "Pamela Chu",
-        "students": "Girl"
+        "gender": "Girl"
       },
       {
         "name": "Pamela Chu",
-        "students": "Girl"
+        "gender": "Girl"
       },
       {
         "name": "Pamela Chu",
-        "students": "Girl"
+        "gender": "Girl"
       }
     ]
   },
@@ -120,27 +120,27 @@
     "students": [
       {
         "name": "Juan Perez",
-        "students": "Boy"
+        "gender": "Boy"
       },
       {
         "name": "Juan Perez",
-        "students": "Boy"
+        "gender": "Boy"
       },
       {
         "name": "Juan Perez",
-        "students": "Boy"
+        "gender": "Boy"
       },
       {
         "name": "Pamela Chu",
-        "students": "Girl"
+        "gender": "Girl"
       },
       {
         "name": "Pamela Chu",
-        "students": "Girl"
+        "gender": "Girl"
       },
       {
         "name": "Pamela Chu",
-        "students": "Girl"
+        "gender": "Girl"
       }
     ]
   },
@@ -149,27 +149,27 @@
     "students": [
       {
         "name": "Juan Perez",
-        "students": "Boy"
+        "gender": "Boy"
       },
       {
         "name": "Juan Perez",
-        "students": "Boy"
+        "gender": "Boy"
       },
       {
         "name": "Juan Perez",
-        "students": "Boy"
+        "gender": "Boy"
       },
       {
         "name": "Pamela Chu",
-        "students": "Girl"
+        "gender": "Girl"
       },
       {
         "name": "Pamela Chu",
-        "students": "Girl"
+        "gender": "Girl"
       },
       {
         "name": "Pamela Chu",
-        "students": "Girl"
+        "gender": "Girl"
       }
     ]
   }
