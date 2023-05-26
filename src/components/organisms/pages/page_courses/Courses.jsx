@@ -1,4 +1,4 @@
-import { imageBook } from "/src/components/organisms/pages/indexPages";
+import { imageBook, Link } from "/src/components/organisms/pages/indexPages";
 
 const COURSES = [
   {
@@ -42,17 +42,27 @@ export const Courses = ({ showCardShadow }) => {
     >
       <h1 className="mb-6 text-3xl font-bold">Courses</h1>
 
-      <div className="flex flex-wrap justify-center gap-6 overflow-y-scroll py-6 lg:w-[800px] lg:scrollbar-thin lg:scrollbar-track-neutral-100 lg:scrollbar-thumb-neutral-200">
+      <div className="flex flex-wrap justify-center gap-6 overflow-y-scroll py-4 lg:w-[800px] lg:scrollbar-thin lg:scrollbar-track-neutral-100 lg:scrollbar-thumb-neutral-200">
         {COURSES.map((course, index) => {
           return (
-            <button
+            <Link
               key={index}
-              className="h-97 flex h-[260px] w-[220px]  flex-col items-center justify-between rounded-3xl bg-neutral-100 p-7 shadow-[3px_3px_10px_-2px_#000000] hover:brightness-105"
+              to={"/courses/students"}
+              state={{ courses: course.name }}
             >
-              <img src={imageBook} className="h-20 w-20" alt="teacher_image" />
-              <h2 className="text-xl font-bold">{course.name}</h2>
-              <p className="text-center text-base">{course.subject}</p>
-            </button>
+              <button
+                key={index}
+                className="h-97 flex h-[260px] w-[220px]  flex-col items-center justify-between rounded-3xl bg-neutral-100 p-7 shadow-[3px_3px_10px_-2px_#000000] hover:brightness-105"
+              >
+                <img
+                  src={imageBook}
+                  className="h-20 w-20"
+                  alt="teacher_image"
+                />
+                <h2 className="text-xl font-bold">{course.name}</h2>
+                <p className="text-xl font-semibold">{course.subject}</p>
+              </button>
+            </Link>
           );
         })}
       </div>
