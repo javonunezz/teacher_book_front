@@ -1,0 +1,176 @@
+[
+  {
+    "name": "1° Medio A",
+    "students": [
+      {
+        "name": "Juan Perez",
+        "gender": "Boy"
+      },
+      {
+        "name": "Juan Perez",
+        "gender": "Boy"
+      },
+      {
+        "name": "Juan Perez",
+        "gender": "Boy"
+      },
+      {
+        "name": "Pamela Chu",
+        "gender": "Girl"
+      },
+      {
+        "name": "Pamela Chu",
+        "gender": "Girl"
+      },
+      {
+        "name": "Pamela Chu",
+        "gender": "Girl"
+      }
+    ]
+  },
+  {
+    "name": "1° Medio B",
+    "students": [
+      {
+        "name": "Juan Perez",
+        "gender": "Boy"
+      },
+      {
+        "name": "Juan Perez",
+        "gender": "Boy"
+      },
+      {
+        "name": "Juan Perez",
+        "gender": "Boy"
+      },
+      {
+        "name": "Pamela Chu",
+        "gender": "Girl"
+      },
+      {
+        "name": "Pamela Chu",
+        "gender": "Girl"
+      },
+      {
+        "name": "Pamela Chu",
+        "gender": "Girl"
+      }
+    ]
+  },
+  {
+    "name": "1° Medio C",
+    "students": [
+      {
+        "name": "Juan Perez",
+        "gender": "Boy"
+      },
+      {
+        "name": "Juan Perez",
+        "gender": "Boy"
+      },
+      {
+        "name": "Juan Perez",
+        "gender": "Boy"
+      },
+      {
+        "name": "Pamela Chu",
+        "gender": "Girl"
+      },
+      {
+        "name": "Pamela Chu",
+        "gender": "Girl"
+      },
+      {
+        "name": "Pamela Chu",
+        "gender": "Girl"
+      }
+    ]
+  },
+  {
+    "name": "2° Medio A",
+    "students": [
+      {
+        "name": "Juan Perez",
+        "gender": "Boy"
+      },
+      {
+        "name": "Juan Perez",
+        "gender": "Boy"
+      },
+      {
+        "name": "Juan Perez",
+        "gender": "Boy"
+      },
+      {
+        "name": "Pamela Chu",
+        "gender": "Girl"
+      },
+      {
+        "name": "Pamela Chu",
+        "gender": "Girl"
+      },
+      {
+        "name": "Pamela Chu",
+        "gender": "Girl"
+      }
+    ]
+  },
+  {
+    "name": "2° Medio B",
+    "students": [
+      {
+        "name": "Juan Perez",
+        "gender": "Boy"
+      },
+      {
+        "name": "Juan Perez",
+        "gender": "Boy"
+      },
+      {
+        "name": "Juan Perez",
+        "gender": "Boy"
+      },
+      {
+        "name": "Pamela Chu",
+        "gender": "Girl"
+      },
+      {
+        "name": "Pamela Chu",
+        "gender": "Girl"
+      },
+      {
+        "name": "Pamela Chu",
+        "gender": "Girl"
+      }
+    ]
+  },
+  {
+    "name": "2° Medio C",
+    "students": [
+      {
+        "name": "Juan Perez",
+        "gender": "Boy"
+      },
+      {
+        "name": "Juan Perez",
+        "gender": "Boy"
+      },
+      {
+        "name": "Juan Perez",
+        "gender": "Boy"
+      },
+      {
+        "name": "Pamela Chu",
+        "gender": "Girl"
+      },
+      {
+        "name": "Pamela Chu",
+        "gender": "Girl"
+      },
+      {
+        "name": "Pamela Chu",
+        "gender": "Girl"
+      }
+    ]
+  }
+]
