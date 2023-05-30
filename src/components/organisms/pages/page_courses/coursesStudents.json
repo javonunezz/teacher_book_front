@@ -4,27 +4,105 @@
     "students": [
       {
         "name": "Juan Perez",
-        "gender": "Boy"
+        "rut": "1",
+        "gender": "Boy",
+        "bornDate": "11/11/2004",
+        "grades": [
+          { "name": "test 1", "grade": 5.0 },
+          { "name": "test 2", "grade": 5.5 },
+          { "name": "test 3", "grade": 6.0 },
+          { "name": "test 4", "grade": 4.0 },
+          { "name": "test 5", "grade": 7.0 },
+          { "name": "test 6", "grade": 3.9 },
+          { "name": "test 7", "grade": 5.3 },
+          { "name": "test 8", "grade": 5.3 },
+          { "name": "test 9", "grade": 6.0 }
+        ],
+        "observations": [
+          { "type": "good", "observation": "The kid finally walks on class" },
+          { "type": "bad", "observation": "The kid went running in the class" },
+          { "type": "good", "observation": "The kid ate his whole meal" }
+        ]
       },
       {
         "name": "Juan Perez",
-        "gender": "Boy"
+        "rut": "2",
+        "gender": "Boy",
+        "bornDate": "11/11/2004",
+        "grades": [
+          { "name": "test 1", "grade": 5.0 },
+          { "name": "test 2", "grade": 5.5 },
+          { "name": "test 3", "grade": 6.0 }
+        ],
+        "observations": [
+          { "type": "good", "observation": "The kid finally walks on class" },
+          { "type": "bad", "observation": "The kid went running in the class" },
+          { "type": "good", "observation": "The kid ate his whole meal" }
+        ]
       },
       {
         "name": "Juan Perez",
-        "gender": "Boy"
+        "rut": "3",
+        "gender": "Boy",
+        "bornDate": "11/11/2004",
+        "grades": [
+          { "name": "test 1", "grade": 5.0 },
+          { "name": "test 2", "grade": 5.5 },
+          { "name": "test 3", "grade": 6.0 }
+        ],
+        "observations": [
+          { "type": "good", "observation": "The kid finally walks on class" },
+          { "type": "bad", "observation": "The kid went running in the class" },
+          { "type": "good", "observation": "The kid ate his whole meal" }
+        ]
       },
       {
         "name": "Pamela Chu",
-        "gender": "Girl"
+        "rut": "4",
+        "gender": "Girl",
+        "bornDate": "11/11/2004",
+        "grades": [
+          { "name": "test 1", "grade": 5.0 },
+          { "name": "test 2", "grade": 5.5 },
+          { "name": "test 3", "grade": 6.0 }
+        ],
+        "observations": [
+          { "type": "good", "observation": "The kid finally walks on class" },
+          { "type": "bad", "observation": "The kid went running in the class" },
+          { "type": "good", "observation": "The kid ate his whole meal" }
+        ]
       },
       {
         "name": "Pamela Chu",
-        "gender": "Girl"
+        "rut": "5",
+        "gender": "Girl",
+        "bornDate": "11/11/2004",
+        "grades": [
+          { "name": "test 1", "grade": 5.0 },
+          { "name": "test 2", "grade": 5.5 },
+          { "name": "test 3", "grade": 6.0 }
+        ],
+        "observations": [
+          { "type": "good", "observation": "The kid finally walks on class" },
+          { "type": "bad", "observation": "The kid went running in the class" },
+          { "type": "good", "observation": "The kid ate his whole meal" }
+        ]
       },
       {
         "name": "Pamela Chu",
-        "gender": "Girl"
+        "rut": "6",
+        "gender": "Girl",
+        "bornDate": "11/11/2004",
+        "grades": [
+          { "name": "test 1", "grade": 5.0 },
+          { "name": "test 2", "grade": 5.5 },
+          { "name": "test 3", "grade": 6.0 }
+        ],
+        "observations": [
+          { "type": "good", "observation": "The kid finally walks on class" },
+          { "type": "bad", "observation": "The kid went running in the class" },
+          { "type": "good", "observation": "The kid ate his whole meal" }
+        ]
       }
     ]
   },
@@ -33,27 +111,99 @@
     "students": [
       {
         "name": "Juan Perez",
-        "gender": "Boy"
+        "rut": "7",
+        "gender": "Boy",
+        "bornDate": "11/11/2004",
+        "grades": [
+          { "name": "test 1", "grade": 5.0 },
+          { "name": "test 2", "grade": 5.5 },
+          { "name": "test 3", "grade": 6.0 }
+        ],
+        "observations": [
+          { "type": "good", "observation": "The kid finally walks on class" },
+          { "type": "bad", "observation": "The kid went running in the class" },
+          { "type": "good", "observation": "The kid ate his whole meal" }
+        ]
       },
       {
         "name": "Juan Perez",
-        "gender": "Boy"
+        "rut": "8",
+        "gender": "Boy",
+        "bornDate": "11/11/2004",
+        "grades": [
+          { "name": "test 1", "grade": 5.0 },
+          { "name": "test 2", "grade": 5.5 },
+          { "name": "test 3", "grade": 6.0 }
+        ],
+        "observations": [
+          { "type": "good", "observation": "The kid finally walks on class" },
+          { "type": "bad", "observation": "The kid went running in the class" },
+          { "type": "good", "observation": "The kid ate his whole meal" }
+        ]
       },
       {
         "name": "Juan Perez",
-        "gender": "Boy"
+        "rut": "9",
+        "gender": "Boy",
+        "bornDate": "11/11/2004",
+        "grades": [
+          { "name": "test 1", "grade": 5.0 },
+          { "name": "test 2", "grade": 5.5 },
+          { "name": "test 3", "grade": 6.0 }
+        ],
+        "observations": [
+          { "type": "good", "observation": "The kid finally walks on class" },
+          { "type": "bad", "observation": "The kid went running in the class" },
+          { "type": "good", "observation": "The kid ate his whole meal" }
+        ]
       },
       {
         "name": "Pamela Chu",
-        "gender": "Girl"
+        "rut": "10",
+        "gender": "Girl",
+        "bornDate": "11/11/2004",
+        "grades": [
+          { "name": "test 1", "grade": 5.0 },
+          { "name": "test 2", "grade": 5.5 },
+          { "name": "test 3", "grade": 6.0 }
+        ],
+        "observations": [
+          { "type": "good", "observation": "The kid finally walks on class" },
+          { "type": "bad", "observation": "The kid went running in the class" },
+          { "type": "good", "observation": "The kid ate his whole meal" }
+        ]
       },
       {
         "name": "Pamela Chu",
-        "gender": "Girl"
+        "rut": "11",
+        "gender": "Girl",
+        "bornDate": "11/11/2004",
+        "grades": [
+          { "name": "test 1", "grade": 5.0 },
+          { "name": "test 2", "grade": 5.5 },
+          { "name": "test 3", "grade": 6.0 }
+        ],
+        "observations": [
+          { "type": "good", "observation": "The kid finally walks on class" },
+          { "type": "bad", "observation": "The kid went running in the class" },
+          { "type": "good", "observation": "The kid ate his whole meal" }
+        ]
       },
       {
         "name": "Pamela Chu",
-        "gender": "Girl"
+        "rut": "12",
+        "gender": "Girl",
+        "bornDate": "11/11/2004",
+        "grades": [
+          { "name": "test 1", "grade": 5.0 },
+          { "name": "test 2", "grade": 5.5 },
+          { "name": "test 3", "grade": 6.0 }
+        ],
+        "observations": [
+          { "type": "good", "observation": "The kid finally walks on class" },
+          { "type": "bad", "observation": "The kid went running in the class" },
+          { "type": "good", "observation": "The kid ate his whole meal" }
+        ]
       }
     ]
   },
@@ -62,27 +212,99 @@
     "students": [
       {
         "name": "Juan Perez",
-        "gender": "Boy"
+        "rut": "13",
+        "gender": "Boy",
+        "bornDate": "11/11/2004",
+        "grades": [
+          { "name": "test 1", "grade": 5.0 },
+          { "name": "test 2", "grade": 5.5 },
+          { "name": "test 3", "grade": 6.0 }
+        ],
+        "observations": [
+          { "type": "good", "observation": "The kid finally walks on class" },
+          { "type": "bad", "observation": "The kid went running in the class" },
+          { "type": "good", "observation": "The kid ate his whole meal" }
+        ]
       },
       {
         "name": "Juan Perez",
-        "gender": "Boy"
+        "rut": "14",
+        "gender": "Boy",
+        "bornDate": "11/11/2004",
+        "grades": [
+          { "name": "test 1", "grade": 5.0 },
+          { "name": "test 2", "grade": 5.5 },
+          { "name": "test 3", "grade": 6.0 }
+        ],
+        "observations": [
+          { "type": "good", "observation": "The kid finally walks on class" },
+          { "type": "bad", "observation": "The kid went running in the class" },
+          { "type": "good", "observation": "The kid ate his whole meal" }
+        ]
       },
       {
         "name": "Juan Perez",
-        "gender": "Boy"
+        "rut": "15",
+        "gender": "Boy",
+        "bornDate": "11/11/2004",
+        "grades": [
+          { "name": "test 1", "grade": 5.0 },
+          { "name": "test 2", "grade": 5.5 },
+          { "name": "test 3", "grade": 6.0 }
+        ],
+        "observations": [
+          { "type": "good", "observation": "The kid finally walks on class" },
+          { "type": "bad", "observation": "The kid went running in the class" },
+          { "type": "good", "observation": "The kid ate his whole meal" }
+        ]
       },
       {
         "name": "Pamela Chu",
-        "gender": "Girl"
+        "rut": "16",
+        "gender": "Girl",
+        "bornDate": "11/11/2004",
+        "grades": [
+          { "name": "test 1", "grade": 5.0 },
+          { "name": "test 2", "grade": 5.5 },
+          { "name": "test 3", "grade": 6.0 }
+        ],
+        "observations": [
+          { "type": "good", "observation": "The kid finally walks on class" },
+          { "type": "bad", "observation": "The kid went running in the class" },
+          { "type": "good", "observation": "The kid ate his whole meal" }
+        ]
       },
       {
         "name": "Pamela Chu",
-        "gender": "Girl"
+        "rut": "17",
+        "gender": "Girl",
+        "bornDate": "11/11/2004",
+        "grades": [
+          { "name": "test 1", "grade": 5.0 },
+          { "name": "test 2", "grade": 5.5 },
+          { "name": "test 3", "grade": 6.0 }
+        ],
+        "observations": [
+          { "type": "good", "observation": "The kid finally walks on class" },
+          { "type": "bad", "observation": "The kid went running in the class" },
+          { "type": "good", "observation": "The kid ate his whole meal" }
+        ]
       },
       {
         "name": "Pamela Chu",
-        "gender": "Girl"
+        "rut": "18",
+        "gender": "Girl",
+        "bornDate": "11/11/2004",
+        "grades": [
+          { "name": "test 1", "grade": 5.0 },
+          { "name": "test 2", "grade": 5.5 },
+          { "name": "test 3", "grade": 6.0 }
+        ],
+        "observations": [
+          { "type": "good", "observation": "The kid finally walks on class" },
+          { "type": "bad", "observation": "The kid went running in the class" },
+          { "type": "good", "observation": "The kid ate his whole meal" }
+        ]
       }
     ]
   },
@@ -91,27 +313,99 @@
     "students": [
       {
         "name": "Juan Perez",
-        "gender": "Boy"
+        "rut": "19",
+        "gender": "Boy",
+        "bornDate": "11/11/2004",
+        "grades": [
+          { "name": "test 1", "grade": 5.0 },
+          { "name": "test 2", "grade": 5.5 },
+          { "name": "test 3", "grade": 6.0 }
+        ],
+        "observations": [
+          { "type": "good", "observation": "The kid finally walks on class" },
+          { "type": "bad", "observation": "The kid went running in the class" },
+          { "type": "good", "observation": "The kid ate his whole meal" }
+        ]
       },
       {
         "name": "Juan Perez",
-        "gender": "Boy"
+        "rut": "20",
+        "gender": "Boy",
+        "bornDate": "11/11/2004",
+        "grades": [
+          { "name": "test 1", "grade": 5.0 },
+          { "name": "test 2", "grade": 5.5 },
+          { "name": "test 3", "grade": 6.0 }
+        ],
+        "observations": [
+          { "type": "good", "observation": "The kid finally walks on class" },
+          { "type": "bad", "observation": "The kid went running in the class" },
+          { "type": "good", "observation": "The kid ate his whole meal" }
+        ]
       },
       {
         "name": "Juan Perez",
-        "gender": "Boy"
+        "rut": "21",
+        "gender": "Boy",
+        "bornDate": "11/11/2004",
+        "grades": [
+          { "name": "test 1", "grade": 5.0 },
+          { "name": "test 2", "grade": 5.5 },
+          { "name": "test 3", "grade": 6.0 }
+        ],
+        "observations": [
+          { "type": "good", "observation": "The kid finally walks on class" },
+          { "type": "bad", "observation": "The kid went running in the class" },
+          { "type": "good", "observation": "The kid ate his whole meal" }
+        ]
       },
       {
         "name": "Pamela Chu",
-        "gender": "Girl"
+        "rut": "22",
+        "gender": "Girl",
+        "bornDate": "11/11/2004",
+        "grades": [
+          { "name": "test 1", "grade": 5.0 },
+          { "name": "test 2", "grade": 5.5 },
+          { "name": "test 3", "grade": 6.0 }
+        ],
+        "observations": [
+          { "type": "good", "observation": "The kid finally walks on class" },
+          { "type": "bad", "observation": "The kid went running in the class" },
+          { "type": "good", "observation": "The kid ate his whole meal" }
+        ]
       },
       {
         "name": "Pamela Chu",
-        "gender": "Girl"
+        "rut": "23",
+        "gender": "Girl",
+        "bornDate": "11/11/2004",
+        "grades": [
+          { "name": "test 1", "grade": 5.0 },
+          { "name": "test 2", "grade": 5.5 },
+          { "name": "test 3", "grade": 6.0 }
+        ],
+        "observations": [
+          { "type": "good", "observation": "The kid finally walks on class" },
+          { "type": "bad", "observation": "The kid went running in the class" },
+          { "type": "good", "observation": "The kid ate his whole meal" }
+        ]
       },
       {
         "name": "Pamela Chu",
-        "gender": "Girl"
+        "rut": "24",
+        "gender": "Girl",
+        "bornDate": "11/11/2004",
+        "grades": [
+          { "name": "test 1", "grade": 5.0 },
+          { "name": "test 2", "grade": 5.5 },
+          { "name": "test 3", "grade": 6.0 }
+        ],
+        "observations": [
+          { "type": "good", "observation": "The kid finally walks on class" },
+          { "type": "bad", "observation": "The kid went running in the class" },
+          { "type": "good", "observation": "The kid ate his whole meal" }
+        ]
       }
     ]
   },
@@ -120,27 +414,99 @@
     "students": [
       {
         "name": "Juan Perez",
-        "gender": "Boy"
+        "rut": "25",
+        "gender": "Boy",
+        "bornDate": "11/11/2004",
+        "grades": [
+          { "name": "test 1", "grade": 5.0 },
+          { "name": "test 2", "grade": 5.5 },
+          { "name": "test 3", "grade": 6.0 }
+        ],
+        "observations": [
+          { "type": "good", "observation": "The kid finally walks on class" },
+          { "type": "bad", "observation": "The kid went running in the class" },
+          { "type": "good", "observation": "The kid ate his whole meal" }
+        ]
       },
       {
         "name": "Juan Perez",
-        "gender": "Boy"
+        "rut": "26",
+        "gender": "Boy",
+        "bornDate": "11/11/2004",
+        "grades": [
+          { "name": "test 1", "grade": 5.0 },
+          { "name": "test 2", "grade": 5.5 },
+          { "name": "test 3", "grade": 6.0 }
+        ],
+        "observations": [
+          { "type": "good", "observation": "The kid finally walks on class" },
+          { "type": "bad", "observation": "The kid went running in the class" },
+          { "type": "good", "observation": "The kid ate his whole meal" }
+        ]
       },
       {
         "name": "Juan Perez",
-        "gender": "Boy"
+        "rut": "27",
+        "gender": "Boy",
+        "bornDate": "11/11/2004",
+        "grades": [
+          { "name": "test 1", "grade": 5.0 },
+          { "name": "test 2", "grade": 5.5 },
+          { "name": "test 3", "grade": 6.0 }
+        ],
+        "observations": [
+          { "type": "good", "observation": "The kid finally walks on class" },
+          { "type": "bad", "observation": "The kid went running in the class" },
+          { "type": "good", "observation": "The kid ate his whole meal" }
+        ]
       },
       {
         "name": "Pamela Chu",
-        "gender": "Girl"
+        "rut": "28",
+        "gender": "Girl",
+        "bornDate": "11/11/2004",
+        "grades": [
+          { "name": "test 1", "grade": 5.0 },
+          { "name": "test 2", "grade": 5.5 },
+          { "name": "test 3", "grade": 6.0 }
+        ],
+        "observations": [
+          { "type": "good", "observation": "The kid finally walks on class" },
+          { "type": "bad", "observation": "The kid went running in the class" },
+          { "type": "good", "observation": "The kid ate his whole meal" }
+        ]
       },
       {
         "name": "Pamela Chu",
-        "gender": "Girl"
+        "rut": "29",
+        "gender": "Girl",
+        "bornDate": "11/11/2004",
+        "grades": [
+          { "name": "test 1", "grade": 5.0 },
+          { "name": "test 2", "grade": 5.5 },
+          { "name": "test 3", "grade": 6.0 }
+        ],
+        "observations": [
+          { "type": "good", "observation": "The kid finally walks on class" },
+          { "type": "bad", "observation": "The kid went running in the class" },
+          { "type": "good", "observation": "The kid ate his whole meal" }
+        ]
       },
       {
         "name": "Pamela Chu",
-        "gender": "Girl"
+        "rut": "30",
+        "gender": "Girl",
+        "bornDate": "11/11/2004",
+        "grades": [
+          { "name": "test 1", "grade": 5.0 },
+          { "name": "test 2", "grade": 5.5 },
+          { "name": "test 3", "grade": 6.0 }
+        ],
+        "observations": [
+          { "type": "good", "observation": "The kid finally walks on class" },
+          { "type": "bad", "observation": "The kid went running in the class" },
+          { "type": "good", "observation": "The kid ate his whole meal" }
+        ]
       }
     ]
   },
@@ -149,27 +515,99 @@
     "students": [
       {
         "name": "Juan Perez",
-        "gender": "Boy"
+        "rut": "31",
+        "gender": "Boy",
+        "bornDate": "11/11/2004",
+        "grades": [
+          { "name": "test 1", "grade": 5.0 },
+          { "name": "test 2", "grade": 5.5 },
+          { "name": "test 3", "grade": 6.0 }
+        ],
+        "observations": [
+          { "type": "good", "observation": "The kid finally walks on class" },
+          { "type": "bad", "observation": "The kid went running in the class" },
+          { "type": "good", "observation": "The kid ate his whole meal" }
+        ]
       },
       {
         "name": "Juan Perez",
-        "gender": "Boy"
+        "rut": "32",
+        "gender": "Boy",
+        "bornDate": "11/11/2004",
+        "grades": [
+          { "name": "test 1", "grade": 5.0 },
+          { "name": "test 2", "grade": 5.5 },
+          { "name": "test 3", "grade": 6.0 }
+        ],
+        "observations": [
+          { "type": "good", "observation": "The kid finally walks on class" },
+          { "type": "bad", "observation": "The kid went running in the class" },
+          { "type": "good", "observation": "The kid ate his whole meal" }
+        ]
       },
       {
         "name": "Juan Perez",
-        "gender": "Boy"
+        "rut": "33",
+        "gender": "Boy",
+        "bornDate": "11/11/2004",
+        "grades": [
+          { "name": "test 1", "grade": 5.0 },
+          { "name": "test 2", "grade": 5.5 },
+          { "name": "test 3", "grade": 6.0 }
+        ],
+        "observations": [
+          { "type": "good", "observation": "The kid finally walks on class" },
+          { "type": "bad", "observation": "The kid went running in the class" },
+          { "type": "good", "observation": "The kid ate his whole meal" }
+        ]
       },
       {
         "name": "Pamela Chu",
-        "gender": "Girl"
+        "rut": "34",
+        "gender": "Girl",
+        "bornDate": "11/11/2004",
+        "grades": [
+          { "name": "test 1", "grade": 5.0 },
+          { "name": "test 2", "grade": 5.5 },
+          { "name": "test 3", "grade": 6.0 }
+        ],
+        "observations": [
+          { "type": "good", "observation": "The kid finally walks on class" },
+          { "type": "bad", "observation": "The kid went running in the class" },
+          { "type": "good", "observation": "The kid ate his whole meal" }
+        ]
       },
       {
         "name": "Pamela Chu",
-        "gender": "Girl"
+        "rut": "35",
+        "gender": "Girl",
+        "bornDate": "11/11/2004",
+        "grades": [
+          { "name": "test 1", "grade": 5.0 },
+          { "name": "test 2", "grade": 5.5 },
+          { "name": "test 3", "grade": 6.0 }
+        ],
+        "observations": [
+          { "type": "good", "observation": "The kid finally walks on class" },
+          { "type": "bad", "observation": "The kid went running in the class" },
+          { "type": "good", "observation": "The kid ate his whole meal" }
+        ]
       },
       {
         "name": "Pamela Chu",
-        "gender": "Girl"
+        "rut": "36",
+        "gender": "Girl",
+        "bornDate": "11/11/2004",
+        "grades": [
+          { "name": "test 1", "grade": 5.0 },
+          { "name": "test 2", "grade": 5.5 },
+          { "name": "test 3", "grade": 6.0 }
+        ],
+        "observations": [
+          { "type": "good", "observation": "The kid finally walks on class" },
+          { "type": "bad", "observation": "The kid went running in the class" },
+          { "type": "good", "observation": "The kid ate his whole meal" }
+        ]
       }
     ]
   }

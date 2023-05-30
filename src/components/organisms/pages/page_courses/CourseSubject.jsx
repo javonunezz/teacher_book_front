@@ -52,7 +52,11 @@ export const CourseSubject = ({ showCardShadow }) => {
                   alt="teacher_image"
                 />
                 <h2 className="text-xl font-bold">{student.name}</h2>
-                <Link key={index} to={"/"}>
+                <Link
+                  key={index}
+                  to={"/courses/students/student"}
+                  state={{ student: student, course: course }}
+                >
                   <button className="flex h-10 w-[140px] items-center justify-center gap-6 rounded-lg bg-primary-500 text-lg text-white hover:brightness-125">
                     See details
                   </button>

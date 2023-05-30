@@ -7,6 +7,7 @@ import { Settings } from "/src/components/organisms/pages/page_settings/Settings
 import { School } from "./components/organisms/pages/page_school/School";
 import { Courses } from "/src/components/organisms/pages/page_courses/Courses";
 import { CourseSubject } from "./components/organisms/pages/page_courses/CourseSubject";
+import { StudentGrades } from "./components/organisms/pages/page_courses/StudentGrades";
 
 export {
   Routes,
@@ -20,4 +21,5 @@ export {
   School,
   Courses,
   CourseSubject,
+  StudentGrades,
 };
