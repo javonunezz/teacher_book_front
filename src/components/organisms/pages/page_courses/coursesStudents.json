@@ -3,7 +3,7 @@
     "name": "1° Medio A",
     "students": [
       {
-        "name": "Juan Perez",
+        "name": "Juan Perez A",
         "rut": "1",
         "gender": "Boy",
         "bornDate": "11/11/2004",
@@ -25,7 +25,7 @@
         ]
       },
       {
-        "name": "Juan Perez",
+        "name": "Pedro Gonzales A",
         "rut": "2",
         "gender": "Boy",
         "bornDate": "11/11/2004",
@@ -41,7 +41,7 @@
         ]
       },
       {
-        "name": "Juan Perez",
+        "name": "Mario Fuentes A",
         "rut": "3",
         "gender": "Boy",
         "bornDate": "11/11/2004",
@@ -57,7 +57,7 @@
         ]
       },
       {
-        "name": "Pamela Chu",
+        "name": "Pamela Gonzalez A",
         "rut": "4",
         "gender": "Girl",
         "bornDate": "11/11/2004",
@@ -73,7 +73,7 @@
         ]
       },
       {
-        "name": "Pamela Chu",
+        "name": "Maria Perez A",
         "rut": "5",
         "gender": "Girl",
         "bornDate": "11/11/2004",
@@ -89,7 +89,7 @@
         ]
       },
       {
-        "name": "Pamela Chu",
+        "name": "Rosa Pedro A",
         "rut": "6",
         "gender": "Girl",
         "bornDate": "11/11/2004",
@@ -110,7 +110,7 @@
     "name": "1° Medio B",
     "students": [
       {
-        "name": "Juan Perez",
+        "name": "Juan Perez B",
         "rut": "7",
         "gender": "Boy",
         "bornDate": "11/11/2004",
@@ -126,7 +126,7 @@
         ]
       },
       {
-        "name": "Juan Perez",
+        "name": "Mario Gonzalez B",
         "rut": "8",
         "gender": "Boy",
         "bornDate": "11/11/2004",
@@ -142,7 +142,7 @@
         ]
       },
       {
-        "name": "Juan Perez",
+        "name": "Pedro Mario B",
         "rut": "9",
         "gender": "Boy",
         "bornDate": "11/11/2004",
@@ -158,7 +158,7 @@
         ]
       },
       {
-        "name": "Pamela Chu",
+        "name": "Rosa Gonzalez B",
         "rut": "10",
         "gender": "Girl",
         "bornDate": "11/11/2004",
@@ -174,7 +174,7 @@
         ]
       },
       {
-        "name": "Pamela Chu",
+        "name": "Pamela Pedra B",
         "rut": "11",
         "gender": "Girl",
         "bornDate": "11/11/2004",
@@ -190,7 +190,7 @@
         ]
       },
       {
-        "name": "Pamela Chu",
+        "name": "Cecilia Cell B",
         "rut": "12",
         "gender": "Girl",
         "bornDate": "11/11/2004",
@@ -211,7 +211,7 @@
     "name": "1° Medio C",
     "students": [
       {
-        "name": "Juan Perez",
+        "name": "Juan Perez C",
         "rut": "13",
         "gender": "Boy",
         "bornDate": "11/11/2004",
@@ -227,7 +227,7 @@
         ]
       },
       {
-        "name": "Juan Perez",
+        "name": "Marco Mario C",
         "rut": "14",
         "gender": "Boy",
         "bornDate": "11/11/2004",
@@ -243,7 +243,7 @@
         ]
       },
       {
-        "name": "Juan Perez",
+        "name": "Juan Juan C",
         "rut": "15",
         "gender": "Boy",
         "bornDate": "11/11/2004",
@@ -259,7 +259,7 @@
         ]
       },
       {
-        "name": "Pamela Chu",
+        "name": "Pame Pame C",
         "rut": "16",
         "gender": "Girl",
         "bornDate": "11/11/2004",
@@ -275,7 +275,7 @@
         ]
       },
       {
-        "name": "Pamela Chu",
+        "name": "Chan Chin C",
         "rut": "17",
         "gender": "Girl",
         "bornDate": "11/11/2004",
@@ -291,7 +291,7 @@
         ]
       },
       {
-        "name": "Pamela Chu",
+        "name": "Pedrita Piedra C",
         "rut": "18",
         "gender": "Girl",
         "bornDate": "11/11/2004",
@@ -312,7 +312,7 @@
     "name": "2° Medio A",
     "students": [
       {
-        "name": "Juan Perez",
+        "name": "Juan Gonzalez A",
         "rut": "19",
         "gender": "Boy",
         "bornDate": "11/11/2004",
@@ -328,7 +328,7 @@
         ]
       },
       {
-        "name": "Juan Perez",
+        "name": "Perez Juan A",
         "rut": "20",
         "gender": "Boy",
         "bornDate": "11/11/2004",
@@ -344,7 +344,7 @@
         ]
       },
       {
-        "name": "Juan Perez",
+        "name": "Carlos A",
         "rut": "21",
         "gender": "Boy",
         "bornDate": "11/11/2004",
@@ -360,7 +360,7 @@
         ]
       },
       {
-        "name": "Pamela Chu",
+        "name": "Pamela A",
         "rut": "22",
         "gender": "Girl",
         "bornDate": "11/11/2004",
@@ -376,7 +376,7 @@
         ]
       },
       {
-        "name": "Pamela Chu",
+        "name": "Zin zan A",
         "rut": "23",
         "gender": "Girl",
         "bornDate": "11/11/2004",
@@ -392,7 +392,7 @@
         ]
       },
       {
-        "name": "Pamela Chu",
+        "name": "Carla Carlona A",
         "rut": "24",
         "gender": "Girl",
         "bornDate": "11/11/2004",
@@ -413,7 +413,7 @@
     "name": "2° Medio B",
     "students": [
       {
-        "name": "Juan Perez",
+        "name": "Perez Perez B",
         "rut": "25",
         "gender": "Boy",
         "bornDate": "11/11/2004",
@@ -429,7 +429,7 @@
         ]
       },
       {
-        "name": "Juan Perez",
+        "name": "Michael Jackson B",
         "rut": "26",
         "gender": "Boy",
         "bornDate": "11/11/2004",
@@ -445,7 +445,7 @@
         ]
       },
       {
-        "name": "Juan Perez",
+        "name": "Drake B",
         "rut": "27",
         "gender": "Boy",
         "bornDate": "11/11/2004",
@@ -461,7 +461,7 @@
         ]
       },
       {
-        "name": "Pamela Chu",
+        "name": "Pam pum B",
         "rut": "28",
         "gender": "Girl",
         "bornDate": "11/11/2004",
@@ -477,7 +477,7 @@
         ]
       },
       {
-        "name": "Pamela Chu",
+        "name": "Sandra B",
         "rut": "29",
         "gender": "Girl",
         "bornDate": "11/11/2004",
@@ -493,7 +493,7 @@
         ]
       },
       {
-        "name": "Pamela Chu",
+        "name": "Pan C",
         "rut": "30",
         "gender": "Girl",
         "bornDate": "11/11/2004",
@@ -514,7 +514,7 @@
     "name": "2° Medio C",
     "students": [
       {
-        "name": "Juan Perez",
+        "name": "Juan Gonza C",
         "rut": "31",
         "gender": "Boy",
         "bornDate": "11/11/2004",
@@ -530,7 +530,7 @@
         ]
       },
       {
-        "name": "Juan Perez",
+        "name": "Mario Castillo C",
         "rut": "32",
         "gender": "Boy",
         "bornDate": "11/11/2004",
@@ -546,7 +546,7 @@
         ]
       },
       {
-        "name": "Juan Perez",
+        "name": "Marco Pere C",
         "rut": "33",
         "gender": "Boy",
         "bornDate": "11/11/2004",
@@ -562,7 +562,7 @@
         ]
       },
       {
-        "name": "Pamela Chu",
+        "name": "Beatriz C",
         "rut": "34",
         "gender": "Girl",
         "bornDate": "11/11/2004",
@@ -578,7 +578,7 @@
         ]
       },
       {
-        "name": "Pamela Chu",
+        "name": "Ximena C",
         "rut": "35",
         "gender": "Girl",
         "bornDate": "11/11/2004",
@@ -594,7 +594,7 @@
         ]
       },
       {
-        "name": "Pamela Chu",
+        "name": "Xin Xan C",
         "rut": "36",
         "gender": "Girl",
         "bornDate": "11/11/2004",
